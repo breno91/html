@@ -1,0 +1,56 @@
+github.com/gustavoguanabara --- "repositorio publico"
+
+gustavoguanabara.github.io
+
+
+REFERENCIAS onile 
+	MDN - MOZILA DEVELOPER NEWTWORK (portgues)
+	W3C - word wide web consortium
+	WHATWG LIVING STANDARD
+	W3Schools
+	
+
+	TAGS
+(inseriir emojis) &#x(maiso codigo que voce consegue na net) finalizar com ;
+h1 = titulo de nivel 1
+p = paragrafo
+hr = linha  horizontal
+br = quebra de texto
+b = negrito (não semantico)
+strong = negrito (semantico)
+I = italico (não semantico)
+Em = italico (semantico)
+mark = marca texto (forma não usual)
+big = aumenta o tamanho 
+	 Para mostrar o sinal de  < digite &lt;
+	E para mostrar o sinal de  > digite &gt;
+small = diminuir o tamanho 
+del = exculir palavras (passar um risco no meio delas)
+ins = indicar que uma palavra foi inserida depois (sublinhando ela)
+u = indicar que uma palavra foi inserida depois (sublinhando ela)(não semantico)
+sup = para elevar algo tipo formulas matematicas (tipo elevar  o 2 para mostar que algo esta ao quadrado)
+sub = para rebaixar algo tipo formulas quimicas (tipo reibaxar o 2 na formula da água H20)
+code =  deixar a palavra mono-espaçada(muitousado para leitura de  codigos)
+(inserir imagens) <img src="html-full.png" alt="logo html 5">
+pre = considera as formatações 
+q = citação ("")
+blockquote = citação em bloco ( blockquote cite="" (o cite e para colocar o endereço do livro))
+abbr (title) = e para colocar o texto completo das abreviações
+ol = lista ordenada, tem que ter uma sequencia, exemplo (item 1, item 2 e continua na sequencia)( O start so funciona na base numeria na importa se voce vai usar letra ou numeros para marca os items da lista )
+	li = item da lista
+ul = lista não ordenada, sem sequencia
+dl = lista de descrição ( usadndo dt e dd)
+	dt = termo
+	dd = descrição
+(links externo) a = para ancorar links (href você coloca o URL de onde vai ser esse link) (para abrir uma nova guia do link externo que vc vai ta usando em vez de sobrepor o seu site principal recomenda-se utilizar (target="_blank" rel="external"))
+(links internos) a = para ancorar links (href você coloca o caminho para acessar a proxima página) (rel ="next" vai mostar para o google que essa e a proxima página e rel = "prev" vai mostar para o google que essa e pagina anterior) (e depos do rel você utiliza target="_self" para continuar na mesma aba)(./ para a mesma pasta e ../ para outra pasta)
+(links patrocinados) a = para ancorar links (href você coloca o URL de onde vai ser esse link) (para abrir uma nova guia do link externo que vc vai ta usando em vez de sobrepor o seu site principal recomenda-se utilizar (target="_blank" rel="nofollow"))
+(links para download) <a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro en PDF</a></li>	
+picture = permite que voce cria varios source(permite que vc adapte a imagem para ficar flexivel e de melhor vizualisação em qualquer dispositivo) ( a tag img fica no meio dela  =  <picture> <img src="imagens/foto-g.png" alt="imagem flexível"> </picture> )
+audio = adicionar audio e ja reproduzir <audio src="midia/good-morning-reed-mathis.mp3" autoplay></audio> (autoplay ja incia o audio quando abre a pagina (controls mostra os controles para pausar aumentar volume e outros) (loop vai ficar em um loop o audio))	
+video = adicionar videos e permite que você cria varios source parecido com a tag picture 
+para insereir um video do YouTube e so aperta em compartilhar e depois em incorporar e copiar e colar no codigo ( a melhor coisa e cirar um canal no youtube para depois voce incoporar no codigo porque ele fica mas leve, sempre tomar cuidado com direitos autoarias)       
+	
+
+quem manda nas coisa e a marcação
+usar estilo na pagina html esta errado pode ate funcionar mas não esta em conformidade, o certo e criar um pagina de estilo de css para aplicar os estios no site e voce pode criar mais de uma pagina para da estilo 

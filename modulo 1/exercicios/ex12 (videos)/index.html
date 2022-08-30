@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ace-icon.ico" type="image/x-icon">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+   <!-- Videos hospedados no seu servidor usando a tag video pode gerar muito trafego de dados podedendo gerar um custo maior para seu cliente-->
+    <video width="560" height="315" poster="imagens/girassol.png"   controls loop>
+        <!--Sempre coloque do menor para o maior para ficar mas levar o seu site --> <!--caso voce queira colocar um imagem de capa e so vc usar o "poster" igual esta acimana tag video-->
+        <source src="midia/meu-video.mp4" type="video/mp4" >
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <!-- Caso nenhuma exetensão seja compativel com seu navegador ele ira mostar essa mensagem abaixo-->
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+   <!-- Essa e maneira mas simples de adicionar videos, mas e sempre bom adicionar outros formatos de videos para porque tem muitos servidores que não são compativeis com alguns formatos por isso com varios formatos um vai dar certo pelo menos igualo exemplo acima <video src="midia/meu-video.ogv" width="500" controls></video> -->
+
+   <h1>Inserindo Vídeos do YouTube</h1>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

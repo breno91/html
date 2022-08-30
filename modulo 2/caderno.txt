@@ -1,0 +1,233 @@
+//////////// AULA 1 //////////////////
+
+há varias maneiras de representar cor em HTML e CSS 
+	Por nome (exemplo: blue)
+	Por código Hexadecimal (exemplo: #0000ff) que e azul tbm
+	Por rgb exemplo: rgb(0,0,255) que azul tbm ( os valore no codigo rgb vão de 0 á 255) (rgb é red,green e blue)
+	Por HSL exemplo: hsl(240, 100%, 50%) que e azul tbm(hue, sturation, luminosity) 
+
+//////////// AULA 2 //////////////////
+
+	Circulo crômatico
+	
+	cores primária : azul, amarelo, vermelho
+	cores secundária: laranja, violeta, verde
+	cores terciária: (na cor terciára e um mistura da cor primaria com a secudaria, sempre vai primeiro o nome da cor primaria e depois o da secundaria)  amarelo-esverdeado, amarelo-alaranjado, vermelho-alaranjado, vermelho-arroxeado, azul-arroxeado, azul-esverdeado
+	
+	cores frias: azul, violeta, verde,amarelo-esverdeado,azul-arroxeado, azul-esverdeado
+	cores quentes: amarelo, vermelho, laranja, amarelo-alaranjado, vermelho-alaranjado, vermelho-arroxeado
+	cores complementares:o mais indicado sempre verificar o circulo crômatico e utilizar cor uma oposta a outra, porquê vai ter um contraste muito grande
+	copres análogas: e só utilizar a cores vizinhas, porquê vai ter uma similaridade entre elas.
+	monocromia:e so uma cor mais com saturação e luminosidade difentes 
+
+//////////// AULA 3 //////////////////
+	
+Para adicionar um degrade no css so  usar  background-image: linear-gradient(to right, white,blue);  nesse degrade ele vai da esqueda para direira começando no branco atê o azul, essa e a forma mais simples, para mudar a possição do degrade tambem pode se utilizar em vez de  to top, to right, por angulação tipo 45deg, 90deg
+No CSS para configuração global se utiliza *
+Para o fundo ficar fixo utiliza-se background-attachment: fixed;
+Para deixar o conteudo sempre no meio em CSS margin: auto;
+para aredondar as bordas em CSS  border-radius: 10px;
+Para colocar sombra em CSS e so usar box-shadow: 5px 5px 15px #725e27b2; e para texto usa o text-shadow
+
+//////////// AULA 4 //////////////////
+   Medidas Absolutas
+           cm, mm, in, px, pt, pc "o in e polegada"
+
+   Medidas Relativas
+           em, ex, rem, vw, vh, % (o em e relativo a altura do m, e o ex e relativo a altura do x)(o em e % e o mais utilizado)
+ 	
+	16px geralmente e = 1em 
+	(negrito)font-weight = peso da fonte, valores aceito (ligther, normal, bold, bolder) ou de 100-900
+	(sublinhado)text-decoration: underline;
+	 shorthand font para condesar o codigo font:font-style -> font-weight -> font-size -> font-family (sempre seguir essa ordem)
+	(alinhamento de texto) text-align: justify; (center, left, rigth, justify)
+	(Espaço do inicio do paragrafo) text-indent: 30px;
+	
+//////////// AULA 5 //////////////////
+a uma maneira de adicionar fontes exeternas sem fazer download, e so ir no google fonts escolher uma fonte adicinar ele e depois copiar o codigo do import e colar 
+
+
+ Essa e a maneira de utilizar fontes em que foi feito o download 
+        @font-face {
+            font-family:'Antigo' ; (você que ecolhe o nome para utilizar a font)
+            src: url('fontes/CloisterBlack.ttf') format('truetype');
+            
+            tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (apple advanced typography)
+            - svg
+
+//////////// AULA 6 //////////////////
+	
+	 em HTML é id = em CSS é #
+    	em HTML é class = em CSS é .
+	em HTML é pseudo-classe = em CSS é :
+	pseudo-elementos e representado por ::
+	
+
+	id = indentificação
+	class = classe
+
+	id = e usado para um unico elemento 
+	class = pode ser usado para mais de um elemento
+	
+	Os nomes das id e class e recomenda usar de acordo com a sua função
+
+//////////// AULA 7 //////////////////
+
+	em HTML é pseudo-classe = em CSS é :
+	
+	height = altura
+	width = largura
+	
+
+	:hover e uma pseudo-classe que serve para da um estilo de estado a uma classe  (exemplo a classe ta com a cor cinza, mas quando vc passa o mouse em cima ela fica amarela ate o momento em que o mouse permanecer em cima dela, depois ela volta para sua cor normal)
+	
+	em CSS e possivel esconder o texto que esta dentro da div com esse comando : > representa filho (no caso p e filho da div)
+   	div > p{
+            display: none;
+        }
+	
+
+	agr para mostar esse texto escondido o comando e esse :
+	  div:hover > p{
+            display: block;
+            
+        }
+
+	pseudo-classes e o define estados de elementos dentro da Html
+	
+	:hover = passar o mouse
+	:visite = ja foi visitado
+	:active = quando clicar 
+
+	
+	pseudo-elementos e representado por ::
+
+
+//////////// AULA 7 //////////////////
+
+	(todo paragrafo e uma caixa tbm)
+	
+	Anatomia de uma caixa:
+	
+	height = altura
+	width = largura
+	border = borda
+	padding = espaço interno entre o texto e a borda
+	margin = espaço exeterno entre a borda de um conteudo para outro conteudo
+	outline = e um tracado fora do elemento, que fica grudado com a borda, entre o border e o margin
+
+	
+	Tipos de caixa:
+	
+	box-level:
+
+	o box-level sempre se inicia em uma linha nova, e sempre ocupa a largura total da tela ele quebra linha para continuar o conteudo (ele e mais independente)  	
+
+	tags de box-level = (div, h1-h6, p, main, header, nav, article, aside, footer, form, video)
+
+
+
+	inline-level:
+	
+	o inline-level e o contrario do box-level, ele continua na mesma linha, e so ocupa a largura necessaria para conter o elemento e ele não quebra a linha para da continuidade no contuedo
+	
+	tags de inline-level = (span, a, code, small, strong, em, sup, sub, label, button, input, select)
+
+
+	margin: auto; vai fazer com que ele se centralize horizontalmente 
+
+	  border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;  abaixo esta uma maniera mais simplificada
+
+            border: 10px solid darkslategray;
+
+
+
+            padding-top: 10px; emcima
+            padding-right: 10px; direita
+            padding-bottom: 10px; embaixo
+            padding-left: 10px; esquerda
+            abaixo esta uma maniera mais simplificada, sempre seguir a ordem no sentido horario comecando do top
+
+            padding: 10px 10px 10px 10px; caso todos os lados forem usar apenas uma medida vc pode colocar apenas um valor exemplo
+            padding: 10px; pronto todos os lados vão de 10px
+
+		
+	margin: auto; vai fazer com que ele se centralize horizontalmente 
+            margin: 20px auto 40px auto caso vc queria mudar emcima e embaixo e centralizar
+           
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px; 
+
+
+ 	outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon; abaixo esta uma maniera mais simplificada 
+
+            outline: 5px dashed salmon;
+
+	caso vc queria alterar os tipos de box exemplo um box-level virar um inline-level
+	display: block;(box-level)
+	display: inline;(inline-level)
+
+//////////// AULA 8 //////////////////
+
+	header = cabeçalho
+
+	(para criar sombra) box-shadow: 4px 3px 8px 2px rgba(0, 0, 0, 0.664); 
+	(para aredondar as bordas)  border-radius: 11px;
+	(para adicionar bordas personalizadas)  border-image-source: url('borda.png');
+
+//////////// AULA 9 //////////////////
+
+	para declara variavel no css
+	
+	:root{
+	(nome da variavel) --cor1: variavel;
+	
+	}
+	
+	depois para utilizar basta usar o var(--cor1)
+
+	
+	(para da um efeito de transição) transition-duration: 0.6s;
+
+	(para colocar altura entre linha do paragrafo)  line-height: 1em;
+
+
+//////////// AULA 10 //////////////////
+
+	(para dividir a lista em colunas variaveis) columns: 2;
+	(para os marcadores da lista ficarem para dentro) list-style-position: inside;
+
+	(colocar emoji na lista) list-style-type: '\2714\00A0\00A0';  
+
+	(para margem passar do limite usa margem negativa)   margin:  -10px -10px 0px -10px; 
+	(quando colocamos os valores assim, o primeio e o top, o segundo e a direita, o terceio embaixo, e o quarto e a esquerda)
+	
+
+
+	(uma adaptação para deixar o video responsivo)
+	
+	div.video{
+   	 background-color: var(--cor5);
+   	 margin: 0px -20px 30px -20px;
+    	padding: 20px;
+    	padding-bottom: 50%;
+    	position: relative;
+	}
+
+	div.video > iframe {
+    	position: absolute;
+    	top: 5%;
+    	left: 5%;
+    	width: 90%;
+    	height: 90%;
+	}
