@@ -1,1 +1,8 @@
 ///////////// AULA 1 //////////////////
+
+	todo elemento que funciona como uma caixa pode receber uma imagem de fundo 
+	(para colocar uma imagen de fundo no seu site) background-image: url('');
+	
+	(para definir o tamanho das imagens vc pode usar o) background-size: ;
+	(para definir se a imagem vai se repitir ou n e como ela vai se repitir) background-repeat: ;
+	(para mudar a posição em que a imagem vai ser exibida) background-position:;  alguns exemplos de posicionamento: left top, left center,right bottom
