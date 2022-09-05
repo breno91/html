@@ -6,3 +6,4 @@
 	(para definir o tamanho das imagens vc pode usar o) background-size: ;
 	(para definir se a imagem vai se repitir ou n e como ela vai se repitir) background-repeat: ;
 	(para mudar a posição em que a imagem vai ser exibida) background-position:;  alguns exemplos de posicionamento: left top, left center,right bottom
+	background-size: (auto: automatico o computador que vai para exibir a imagem, tbm pode colocar o valor em % px para exebir, contain vai mostrar 100% da imagem se adapantado a tamanho da tela sem cortar, cover vai fazer cortes mais vai precher a tela inteira )
