@@ -18,3 +18,5 @@
 	centralização de elementos (modulo3 > ex01 > fundo07.html)
 
 	(para colocar todas as letras maiuscula) font-variant: small-caps;
+
+	(efeito paralax nas imagens) background-attachment: fixed;
