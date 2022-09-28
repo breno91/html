@@ -1,0 +1,15 @@
+/////////////// aula 1 /////////////////
+
+    	iframe cria uma janela de outro site no seu site
+	
+	o indicado e sempre colocar um link no iframe pq e n todo site q e compativel com iframe
+	
+	tamanho padrão do iframe e 300x150 px
+	
+	o css e soberano as configurações
+
+	scolling e para rolagem do iframe mas e n todo navegador q funciona
+
+	 <iframe src="paginas-extras/pag04.html" sandbox="sandbox"> - o sandbox e uma medida de segurança para o seu site para não deixar vc enviar dados nos iframes 
+	 
+	 <iframe src="paginas-extras/pag04.html" sandbox="sandbox" referrerpolicy="no-referrer"> - o referrerpolicy vai ser com que o iframe n pegue nenhum dado do seu site 

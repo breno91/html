@@ -20,3 +20,72 @@
 	(para colocar todas as letras maiuscula) font-variant: small-caps;
 
 	(efeito paralax nas imagens) background-attachment: fixed;
+
+
+///////////// AULA 3 //////////////////
+
+	 Hierarquia de tabelas (simples)
+        
+	<table> table = tabela
+             <thead>   table header = cabeçalho de tabela
+		<tr>  table rows = linha de tabela 
+             <td>   table data = dado de tabela (celula)
+
+        (para grudar as celulas) border-collapse: collapse;
+
+	  text-align: center;    (alinhamento horizontal)
+          vertical-align: middle; (alinhamento vertical)
+
+///////////// AULA 4 //////////////////
+
+	TABLE
+            CAPTION = (legenda)
+            THEAD = (cabeçalho)
+                TR, TD, TH
+            TBODY = (corpo)
+                TR, TD, TH
+            TFOOT = (rodapé)
+                TR, TD, TH
+	
+	
+
+
+	<th scope="row"> e quando o dados estão na mesma linha que o titulo
+	
+	<th scope="col"> e quando o dados estão na mesma coluna que o titulo
+
+///////////// AULA 5 //////////////////
+	
+	Efeito zebrado na tabela
+
+	tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+	(2n) e para uma linha sim uma não
+	(odd) impar
+	(even) par
+
+///////////// AULA 6 //////////////////
+
+	 Cabeçalho fixo
+	
+	table {
+ 	position: relative;
+	}
+
+
+	thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color:gray;
+        }
+
+///////////// AULA 7 //////////////////
+	
+
+	mesclagem de células
+
+	<td rowspan="3"> rowspan e para mesclar linha ai vc decide quantas linhas ele vai mesclar 
+	
+	<td colspan="2"> colpan e para mesclar coluna ai vc decide quantas colunas ele vai mesclar 
