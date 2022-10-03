@@ -12,4 +12,13 @@
 
 	 <iframe src="paginas-extras/pag04.html" sandbox="sandbox"> - o sandbox e uma medida de segurança para o seu site para não deixar vc enviar dados nos iframes 
 	 
-	 <iframe src="paginas-extras/pag04.html" sandbox="sandbox" referrerpolicy="no-referrer"> - o referrerpolicy vai ser com que o iframe n pegue nenhum dado do seu site 
+	 <iframe src="paginas-extras/pag04.html" sandbox="sandbox" referrerpolicy="no-referrer"> - o referrerpolicy vai ser com que o iframe n pegue nenhum dado do seu site
+
+
+/////////////// aula 2 ///////////////// 
+
+	box-sizing: border-box; - a borda vai fazer parte da caixa 
+	
+	transform: translate(-3px, -3px); - isso e para quando passar o mouse emcima da imagem ela se mova um pouco
+	
+	transition: transform 0.5s; - isso e para o tempo que ela vai levar para sem mover
